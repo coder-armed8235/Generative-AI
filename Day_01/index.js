@@ -9,5 +9,4 @@ async function main() {
   });
   console.log(response.output_text);
 }
-
 await main();
