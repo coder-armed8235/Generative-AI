@@ -1,0 +1,17 @@
+{
+  "name": "day_03",
+  "version": "1.0.0",
+  "description": "Weather_api = http://api.weatherapi.com/v1/current.json?key=aacecf3694874beea8a165544260804&q=delhi&aqi=no",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "readline-sync": "^1.4.10"
+  }
+}
