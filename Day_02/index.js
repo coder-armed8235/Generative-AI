@@ -5,10 +5,6 @@ import 'dotenv/config'
 import readlineSync from "readline-sync"
 const ai = new GoogleGenAI({});
 
-
-app.use('/auth',AuthRoute);
-app.use('chatWithAI',chatRoute);
-
 async function main() {
   const chat = ai.chats.create({
     model: "gemini-2.5-flash",
