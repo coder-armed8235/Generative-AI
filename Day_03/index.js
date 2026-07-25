@@ -39,11 +39,11 @@ const WeatherInfo = {
     parameters:{
         type:'object',
         properties:{
-            coin:{
+            city:{
                 type:'string',
-                description:'The coin'
+                description:'The city'
             }
         },
-        required:['coin'],
+        required:['city'],
     }
 }
